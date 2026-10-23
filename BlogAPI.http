@@ -1,0 +1,16 @@
+@BlogAPI_HostAddress = http://localhost:5188
+
+GET {{BlogAPI_HostAddress}}/swagger/v1/swagger.json
+Accept: application/json
+
+###
+
+GET {{BlogAPI_HostAddress}}/api/posts
+Accept: application/json
+
+###
+
+GET {{BlogAPI_HostAddress}}/api/users/{id}
+Accept: application/json
+
+###
